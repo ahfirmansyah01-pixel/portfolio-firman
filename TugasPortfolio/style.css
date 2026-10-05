@@ -1,0 +1,287 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+
+/* NAVBAR */
+
+header {
+    background-color: #181818;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #00aaff;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+
+/* SEMUA SECTION */
+
+section {
+    min-height: 80vh;
+    padding: 100px 10%;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+/* HOME */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h1 {
+    font-size: 55px;
+}
+
+.hero-text h2 {
+    color: #00aaff;
+    margin: 10px 0;
+}
+
+.hero-text p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #00aaff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0088cc;
+}
+
+
+/* FOTO */
+
+.hero-photo {
+    width: 40%;
+    text-align: center;
+}
+
+.hero-photo img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #00aaff;
+}
+
+
+/* ABOUT */
+
+#about {
+    background-color: #181818;
+}
+
+#about > p {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.biodata {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #222;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* SKILLS */
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #222;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+
+.skill strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.skill span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.skill:hover {
+    border-color: #00aaff;
+}
+
+.learning {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #888;
+}
+
+
+/* PROJECT */
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #222;
+    width: 300px;
+    min-height: 180px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+
+.project h3 {
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.project:hover {
+    border-color: #00aaff;
+}
+
+
+/* PENGALAMAN */
+
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.experience {
+    background-color: #222;
+    width: 300px;
+    min-height: 180px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+
+.experience h3 {
+    color: #00aaff;
+    margin-bottom: 5px;
+}
+
+.experience h4 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #ddd;
+}
+
+.experience p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.experience:hover {
+    border-color: #00aaff;
+}
+
+
+/* CONTACT */
+
+#contact {
+    text-align: center;
+    min-height: 50vh;
+}
+
+#contact p {
+    margin: 10px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #181818;
+    color: #888;
+}
